@@ -1,0 +1,9 @@
+*.pyc
+.DS_Store
+*.egg-info/
+*.egg/
+*.eggs/
+.seismic/
+build/
+dist/
+README.html
