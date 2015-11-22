@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 import structlog
 from seismic import processors as proc
-import os
-if os.environ.get('SEISMIC_APP') is None:
-    os.environ['SEISMIC_APP'] = 'wildcat'
 
 structlog.configure(
     processors=[
